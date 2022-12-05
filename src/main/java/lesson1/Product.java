@@ -10,7 +10,6 @@ public class Product {
         this.title = title;
         this.cost = cost;
     }
-
     public int getId() {
         return id;
     }

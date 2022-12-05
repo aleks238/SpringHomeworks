@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
 @WebServlet(name = "ProductListServlet", urlPatterns = "/list")
 public class ProductListServlet extends HttpServlet {
     private Product[] products;
